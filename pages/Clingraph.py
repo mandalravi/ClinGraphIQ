@@ -14,7 +14,7 @@ st.set_page_config(
 # Initialize Gemini API
 def initialize_gemini():
     try:
-        api_key = st.secrets["AIzaSyAHQ2_BRnhsA-en4c0_lE1RhixUthc4xjg"]
+        api_key = st.secrets["XXX"]
     except:
         api_key = st.sidebar.text_input("Enter your Gemini API key:", type="password")
         if not api_key:
